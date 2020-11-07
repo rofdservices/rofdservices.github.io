@@ -1,0 +1,7 @@
+{% include head.html %}
+<div class="container-fluid">
+  {% for section in page.page_sections %}
+    {% include block-{{ section.block }}.html %}
+  {% endfor %}
+</div>
+{% include footer.html %}
