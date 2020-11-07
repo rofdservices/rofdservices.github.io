@@ -1,0 +1,22 @@
+<div class="row">
+  <div id="carousel-{{ section.id }}" class="carousel slide z-depth-1-half" data-ride="carousel" {% if section.interval %}data-interval="{{ section.interval }}"{% endif %}>
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      {% for i in (0..section.pictures.size) %}
+        {% if i == section.pictures.size %}
+          {% break %}
+        {% endif %}
+        {% assign picture = section.pictures[i] %}
+        <!-- Iterate -->
+        <li data-target="#carousel-{{ section.id }}" data-slide-to="{{ i }}" {% if picture.active %}class="active"{% endif %}></li>
+      {% endfor%}
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      {% for picture in section.pictures %}
+        <div class="carousel-item {% if picture.active %}active{% endif %}">
+          <img class="d-block w-100" src="{{ picture.image }}" alt="{{ picture.alt }}">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

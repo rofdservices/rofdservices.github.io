@@ -1,0 +1,9 @@
+<div class="row">
+  <ul class="nav justify-content-center mt-2 mb-2 mx-auto">
+    {% for nav_item in section.navigation %}
+      <li class="nav-item">
+        <a class="nav-link {% if page.url == nav_item.link %}active{% endif %}" href="{{ nav_item.link | relative_url }}">{{ nav_item.link_text }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

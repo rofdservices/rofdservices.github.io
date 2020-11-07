@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #1935a2
+}
+
+/* Carousel */
+.carousel-inner {
+  height: 500px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
