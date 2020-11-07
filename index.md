@@ -19,16 +19,19 @@ page_sections:
         link_text: Onze producten
       - link: "#"
         link_text: Contact
+  - template: display-caption
+    block: display-caption
+    slug: rofd-mark
+    title: rofd
+    caption: Werk van hoge kwalitiet
   - template: carousel-photos
     block: carousel
     slug: main-gallery
     interval: 2000
     pictures:
-      - image: /uploads/2020/11/03/carousel-1.jpg
-        alt: Slide 1
-        active: true
       - image: /uploads/2020/11/03/carousel-2.jpg
         alt: Slide 2
+        active: true
       - image: /uploads/2020/11/03/carousel-3.jpg
         alt: Slide 3
       - image: /uploads/2020/11/03/carousel-4.jpg

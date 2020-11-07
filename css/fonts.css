@@ -1,15 +1,5 @@
 :root {
-  --font_6: normal normal normal 40px/1.35em, sans-serif;
-  --font_8: normal normal normal 18px/1.75em, sans-serif;
-  --font_9: normal normal normal 15px/1.875em, sans-serif;
-}
 
-.font-8 {
-  font: var(--font_8);
-}
-
-.font-9 {
-  font: var(--font_9);
 }
 
 .all-caps {

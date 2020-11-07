@@ -1,3 +1,13 @@
+/* Top */
 .mt-40 {
   margin-top: 40px
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+/* Bottom */
+.mb-80 {
+  margin-bottom: 80px;
 }
