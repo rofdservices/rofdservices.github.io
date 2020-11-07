@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #1935a2;
+  --green-color-1: #c4d4a1;
+  --bg-color-1: #f4fbfb;
+
+}
+
+.green-color-1 {
+  color: var(--green-color-1);
+}
+
+.bg-color-1 {
+  background-color: var(--bg-color-1);
+}

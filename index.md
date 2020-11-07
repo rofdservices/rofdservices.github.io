@@ -11,7 +11,7 @@ page_sections:
     navigation:
       - link: "/"
         link_text: Home
-      - link: "#meer_van_ons"
+      - link: "#meer-van-ons"
         link_text: Meer van ons
       - link: "#"
         link_text: Onze services
@@ -21,7 +21,7 @@ page_sections:
         link_text: Contact
   - template: carousel-photos
     block: carousel
-    id: main-gallery
+    slug: main-gallery
     interval: 2000
     pictures:
       - image: /uploads/2020/11/03/carousel-1.jpg
@@ -37,4 +37,15 @@ page_sections:
         alt: Slide 5
       - image: /uploads/2020/11/03/carousel-6.jpg
         alt: Slide 6
+  - template: title-description
+    block: title-caption-description
+    slug: meer van ons
+    title: Meer van ons
+    caption: Bedrijf profil
+    description: >
+      ROFD biedt een complete service als een bouwbedrijf gericht op het bouwen en verbeteren van residentiële en commerciële structuren volgens de behoeften en eisen van klanten. Ons team is in 2000 opgericht in Rome en staat klaar om alle verbeteringen aan te brengen die nodig zijn voor uw omgeving. Bel of schrijf ons. We nemen zo snel mogelijk contact met u op.
+  - template: full-w-feature
+    block: feature-large
+    slug:
+    image: https://static.wixstatic.com/media/4e968477afe442059b221278eb0d04ed.jpeg/v1/fill/w_1650,h_730,fp_0.50_0.50,q_85/4e968477afe442059b221278eb0d04ed.webp
 ---

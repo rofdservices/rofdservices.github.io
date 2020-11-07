@@ -1,7 +1,3 @@
-:root {
-  --primary-color: #1935a2
-}
-
 /* Carousel */
 .carousel-inner {
   height: 500px;
@@ -11,4 +7,30 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
+}
+
+/* Title Caption Description */
+.title-caption-description {
+  padding-top: 120px;
+  background-color: var(--bg-color-1);
+}
+
+.h1 {
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--green-color-1);
+}
+
+.h6 {
+  font-weight: 250;
+  text-align: center;
+}
+
+.text-lighter {
+  font-weight: lighter;
+}
+
+p {
+  font-size: 0.95rem;
 }
