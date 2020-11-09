@@ -2,13 +2,23 @@
   --primary-color: #1935a2;
   --green-color-1: #c4d4a1;
   --bg-color-1: #f4fbfb;
-
+  --bg-color-2: white;
+  --bg-color-3: #a1bfc4;
+  --bg-color-4: #c4d4a1;
 }
 
 .green-color-1 {
   color: var(--green-color-1);
 }
 
-.bg-color-1 {
-  background-color: var(--bg-color-1);
+.bg-color-2 {
+  background-color: var(--bg-color-2);
+}
+
+.bg-color-3 {
+  background-color: var(--bg-color-3);
+}
+
+.bg-color-4 {
+  background-color: var(--bg-color-4);
 }

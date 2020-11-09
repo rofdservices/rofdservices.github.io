@@ -14,7 +14,7 @@
     <div class="carousel-inner" role="listbox">
       {% for picture in section.pictures %}
         <div class="carousel-item {% if picture.active %}active{% endif %}">
-          <img class="d-block w-100" src="{{ picture.image }}" alt="{{ picture.alt }}">
+          <img class="carousel-image" src="{{ picture.image }}" alt="{{ picture.alt }}">
         </div>
       {% endfor %}
     </div>

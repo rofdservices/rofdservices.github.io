@@ -1,6 +1,12 @@
 /* Carousel */
-.carousel-inner {
-  height: 500px;
+.carousel-item {
+  height: 520px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .carousel-indicators li {
@@ -15,11 +21,48 @@
   background-color: var(--bg-color-1);
 }
 
+/* Feature 3 Cols */
+.block-feature {
+  height: 280px;
+}
+
+.block-feature-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feature-col-1 {
+  background-color: var(--bg-color-2);
+}
+
+.feature-col-2 {
+  color: white;
+  background-color: var(--bg-color-3);
+}
+
+.feature-col-3 {
+  background-color: var(--bg-color-4);
+}
+
+/* Typography */
+.display-3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--green-color-1);
+}
+
 .h1 {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
   color: var(--green-color-1);
+}
+
+.h4 {
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .h6 {
@@ -41,4 +84,28 @@ p {
   font-weight: lighter;
   padding: .5rem .5rem;
   color: black
+}
+
+/* -------- */
+/* Media */
+@media screen and (max-width: 580px) {
+  .display-3 {
+    font-size: 12vw;
+  }
+
+  .h1 {
+    font-size: 9vw;
+  }
+
+  .h4 {
+    font-size: 4vw;
+  }
+
+  .h6 {
+    font-size: 3vw;
+  }
+
+  p {
+    font-size: 3.5vw;
+  }
 }

@@ -13,7 +13,7 @@ page_sections:
         link_text: Home
       - link: "#meer-van-ons"
         link_text: Meer van ons
-      - link: "#"
+      - link: "#onze-services"
         link_text: Onze services
       - link: "#"
         link_text: Onze producten
@@ -27,7 +27,7 @@ page_sections:
   - template: carousel-photos
     block: carousel
     slug: main-gallery
-    interval: 2000
+    interval: 2500
     pictures:
       - image: /uploads/2020/11/03/carousel-2.jpg
         alt: Slide 2
@@ -51,4 +51,20 @@ page_sections:
     block: feature-large
     slug:
     image: https://static.wixstatic.com/media/4e968477afe442059b221278eb0d04ed.jpeg/v1/fill/w_1650,h_730,fp_0.50_0.50,q_85/4e968477afe442059b221278eb0d04ed.webp
+  - template: feature-3-columns
+    block: feature-3
+    slug: onze services
+    features:
+      - title: design
+        subtitle: Superieure kwaliteit
+        picture: /uploads/2020/11/09/feature-1.jpg
+        style: feature-col-1
+      - title: reparaties
+        subtitle: Alternatieven bouwen
+        picture: /uploads/2020/11/09/feature-2.jpg
+        style: feature-col-2
+      - title: constructie
+        subtitle: Gepersonaliseerde werken
+        picture: /uploads/2020/11/09/feature-3.jpg
+        style: feature-col-3
 ---
