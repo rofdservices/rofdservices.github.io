@@ -50,7 +50,7 @@ page_sections:
   - template: full-w-feature
     block: feature-large
     slug:
-    image: https://static.wixstatic.com/media/4e968477afe442059b221278eb0d04ed.jpeg/v1/fill/w_1650,h_730,fp_0.50_0.50,q_85/4e968477afe442059b221278eb0d04ed.webp
+    image: /uploads/2020/11/09/feature.jpg
   - template: feature-3-columns
     block: feature-3
     slug: onze services
@@ -67,4 +67,10 @@ page_sections:
         subtitle: Gepersonaliseerde werken
         picture: /uploads/2020/11/09/feature-3.jpg
         style: feature-col-3
+  - template: full-feature-text
+    block: feature-large
+    slug: onze producten
+    title: onze producten
+    subtitle: Kwaliteit en betrouwbaarheid
+    image: /uploads/2020/11/09/feature-l.jpg
 ---

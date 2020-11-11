@@ -1,3 +1,19 @@
-<div id="{{ section.slug | slugify }}" class="row">
-  <img src="{{ section.image }}" loading="lazy">
+<div id="{{ section.slug | slugify }}"
+     class="row feature-large-img"
+    style="background-image:
+           {% if section.title or section.subtitle %}
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+           {% endif %}
+           url('{{ section.image }}');"
+>
+  {% if section.title or section.subtitle %}
+  <div class="feature-large-img-text">
+    {% if section.title %}
+      <p class="h1 white">{{ section.title }}</p>
+    {% endif %}
+    {% if section.subtitle %}
+      <p class="h6 white">{{ section.subtitle }}</p>
+    {% endif %}
+  </div>
+  {% endif %}
 </div>

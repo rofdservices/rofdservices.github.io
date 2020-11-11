@@ -14,7 +14,26 @@
 /* Title Caption Description */
 .title-caption-description {
   padding-top: 120px;
-  background-color: var(--bg-color-1);
+}
+
+/* Features */
+.feature-large {
+  position: relative;
+  max-height: 380px;
+}
+
+.feature-large-img {
+  height: 380px;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.feature-large-img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Feature 3 Cols */
@@ -45,14 +64,12 @@
 .display-3 {
   text-transform: uppercase;
   text-align: center;
-  color: var(--green-color-1);
 }
 
 .h1 {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
-  color: var(--green-color-1);
 }
 
 .h4 {

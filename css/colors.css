@@ -7,8 +7,20 @@
   --bg-color-4: #c4d4a1;
 }
 
+/* Foreground */
+
 .green-color-1 {
   color: var(--green-color-1);
+}
+
+.white {
+  color: white;
+}
+
+/* Background */
+
+.bg-color-1 {
+  background-color: var(--bg-color-1);
 }
 
 .bg-color-2 {
