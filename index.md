@@ -15,7 +15,7 @@ page_sections:
         link_text: Meer van ons
       - link: "#onze-services"
         link_text: Onze services
-      - link: "#"
+      - link: "#onze-producten"
         link_text: Onze producten
       - link: "#"
         link_text: Contact
@@ -27,19 +27,17 @@ page_sections:
   - template: carousel-photos
     block: carousel
     slug: main-gallery
-    interval: 2500
+    interval: 2000
     pictures:
-      - image: /uploads/2020/11/03/carousel-2.jpg
+      - image: /uploads/2020/11/14/c-picture-0.jpg
         alt: Slide 2
         active: true
-      - image: /uploads/2020/11/03/carousel-3.jpg
+      - image: /uploads/2020/11/14/c-picture-1.jpg
         alt: Slide 3
-      - image: /uploads/2020/11/03/carousel-4.jpg
+      - image: /uploads/2020/11/14/c-picture-2.jpg
         alt: Slide 4
-      - image: /uploads/2020/11/03/carousel-5.jpg
+      - image: /uploads/2020/11/14/c-picture-3.jpg
         alt: Slide 5
-      - image: /uploads/2020/11/03/carousel-6.jpg
-        alt: Slide 6
   - template: title-description
     block: title-caption-description
     slug: meer van ons
@@ -50,7 +48,9 @@ page_sections:
   - template: full-w-feature
     block: feature-large
     slug:
-    image: /uploads/2020/11/09/feature.jpg
+    image: /uploads/2020/11/14/feature-large-2.jpg
+    image_blurred: /uploads/2020/11/14/feature-large-2-b.jpg
+    mode: portrait
   - template: feature-3-columns
     block: feature-3
     slug: onze services
@@ -72,5 +72,23 @@ page_sections:
     slug: onze producten
     title: onze producten
     subtitle: Kwaliteit en betrouwbaarheid
-    image: /uploads/2020/11/09/feature-l.jpg
+    image: /uploads/2020/11/14/feature-large-1.jpg
+    image_blurred: /uploads/2020/11/14/feature-large-1-b.jpg
+    mode: portrait
+  - template: puzzle-features
+    block: feature-puzzle
+    slug:
+    features:
+      - title: Veranda's en terrassen
+        text: De laatste hand
+        picture: /uploads/2020/11/12/feature-puzzle-1.jpg
+        position: top
+      - title: Trappen en leuningen
+        text: Keuze te over
+        picture: /uploads/2020/11/12/feature-puzzle-2.jpg
+        position: bottom
+      - title: Pergola's en tuinhuisjes
+        text: Kwaliteits vakmanschap
+        picture: /uploads/2020/11/12/feature-puzzle-3.jpg
+        position: top
 ---

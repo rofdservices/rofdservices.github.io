@@ -11,9 +11,17 @@
   border-radius: 50%;
 }
 
-/* Title Caption Description */
-.title-caption-description {
-  padding-top: 120px;
+/* Feature Large */
+
+.feature-portrait-image {
+  height: 380px;
+  background-size: contain;
+  background-repeat: round;
+}
+
+.feature-blured-background {
+
+  background-repeat: round;
 }
 
 /* Features */
@@ -60,6 +68,10 @@
   background-color: var(--bg-color-4);
 }
 
+.feature-block-text {
+  padding: 40px 40px 40px 40px;
+}
+
 /* Typography */
 .display-3 {
   text-transform: uppercase;
@@ -75,16 +87,18 @@
 .h4 {
   font-weight: 300;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .h6 {
   font-weight: 250;
-  text-align: center;
 }
 
 .text-lighter {
   font-weight: lighter;
+}
+
+.text-center {
+  text-align: center;
 }
 
 p {

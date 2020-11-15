@@ -19,3 +19,8 @@
 .mb-80 {
   margin-bottom: 80px;
 }
+
+/* Special */
+.no-padding {
+  padding: 0 0 0 0;
+}
