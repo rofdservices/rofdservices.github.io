@@ -1,14 +1,13 @@
 title: Rofdservices
 author: rofdservices
-email: wip@wip.com
+email: info@rofdservices.nl
 description: >-
   ROFD Services is een klusbedrijf sinds 2010 actief op de Nederlandse markt.
   Met vestingen in Amstelveen, leveren wij maatwerk in de Regio Amsterdam.
   Renovatie verbouwen en onderhoud buiten en binnenshuis.
-keywords: rofd, services, renovatie, badkamer, keuken
+keywords: rofd, services, rofdservices, repairatie, renovatie, badkamer, keuken
 
-# baseurl: "/ubuild-jekyll" # the subpath of your site, e.g. /blog
-url: "" # your site's origin, e.g. https://forestry.io
+url: "www.rofdservices.nl"
 
 # Build settings
 defaults:
