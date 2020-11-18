@@ -49,23 +49,21 @@ page_sections:
     block: feature-large
     slug:
     image: /uploads/2020/11/14/feature-large-2.jpg
-    image_blurred: /uploads/2020/11/14/feature-large-2-b.jpg
-    mode: portrait
   - template: feature-3-columns
     block: feature-3
     slug: onze services
     features:
       - title: design
         subtitle: Superieure kwaliteit
-        picture: /uploads/2020/11/09/feature-1.jpg
+        picture: /uploads/2020/11/14/feature-design.jpg
         style: feature-col-1
       - title: reparaties
         subtitle: Alternatieven bouwen
-        picture: /uploads/2020/11/09/feature-2.jpg
+        picture: /uploads/2020/11/14/feature-repair.jpg
         style: feature-col-2
       - title: constructie
         subtitle: Gepersonaliseerde werken
-        picture: /uploads/2020/11/09/feature-3.jpg
+        picture: /uploads/2020/11/14/feature-constructie.jpg
         style: feature-col-3
   - template: full-feature-text
     block: feature-large
@@ -73,8 +71,6 @@ page_sections:
     title: onze producten
     subtitle: Kwaliteit en betrouwbaarheid
     image: /uploads/2020/11/14/feature-large-1.jpg
-    image_blurred: /uploads/2020/11/14/feature-large-1-b.jpg
-    mode: portrait
   - template: puzzle-features
     block: feature-puzzle
     slug:

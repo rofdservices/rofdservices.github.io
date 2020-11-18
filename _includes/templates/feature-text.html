@@ -1,0 +1,12 @@
+<div class="col-4 bg-color-1 no-padding">
+  {% if feature.position == "top" %}
+    <img src="{{ feature.picture }}" width="100%"></img>
+  {% endif %}
+  <div class="feature-block-text">
+    <p class="h4 all-caps green-color-1">{{ feature.title }}</p>
+    <p class="h6 mt-40">{{ feature.text }}</p>
+  </div>
+  {% if feature.position == "bottom" %}
+    <img src="{{ feature.picture }}" width="100%"></img>
+  {% endif %}
+</div>

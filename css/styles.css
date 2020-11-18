@@ -20,7 +20,6 @@
 }
 
 .feature-blured-background {
-
   background-repeat: round;
 }
 
@@ -31,7 +30,7 @@
 }
 
 .feature-large-img {
-  height: 380px;
+  height: 500px;
   background-size: cover;
   color: white;
   position: relative;
@@ -45,9 +44,6 @@
 }
 
 /* Feature 3 Cols */
-.block-feature {
-  height: 280px;
-}
 
 .block-feature-image {
   width: 100%;
@@ -56,7 +52,7 @@
 }
 
 .feature-col-1 {
-  background-color: var(--bg-color-2);
+  background-color: var(--bg-color-1);
 }
 
 .feature-col-2 {

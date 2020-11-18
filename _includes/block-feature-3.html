@@ -1,10 +1,10 @@
 <div id="{{ section.slug | slugify }}" class="row">
   {% for feature in section.features) %}
-    <div class="col-4 {{ feature.style }} pb-40">
-      <div class="row block-feature">
+    <div class="col-4 {{ feature.style }} pb-60">
+      <div class="row">
         <img class="block-feature-image" src="{{ feature.picture }}" alt="{{ feature.subtitle }}"></img>
       </div>
-      <div class="row pt-40">
+      <div class="row pt-60">
         <div class="col text-center">
           <p class="h4 all-caps">{{ feature.title }}</p>
           <p class="h6 mt-40">{{ feature.subtitle }}</p>
@@ -13,7 +13,3 @@
     </div>
   {% endfor %}
 </div>
-
-<!-- line by line -->
-<!-- image text image -->
-<!-- text image text -->

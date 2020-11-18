@@ -1,48 +1,19 @@
-{% if section.mode == "landscape" %}
-  <div id="{{ section.slug | slugify }}"
-      class="row feature-large-img"
-      style="background-image:
-            {% if section.title or section.subtitle %}
-              linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            {% endif %}
-            url('{{ section.image }}');"
-  >
-    {% if section.title or section.subtitle %}
-      <div class="feature-large-img-text">
-        {% if section.title %}
-          <p class="h1 white">{{ section.title }}</p>
-        {% endif %}
-        {% if section.subtitle %}
-          <p class="h6 white">{{ section.subtitle }}</p>
-        {% endif %}
-      </div>
-    {% endif %}
-  </div>
-{% elsif section.mode == "portrait" %}
-  <div id="{{ section.slug | slugify }}"
-      class="row feature-blured-background"
-      style="background-image:
-            {% if section.title or section.subtitle %}
-              linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            {% endif %}
-            url('{{ section.image_blurred }}');"
-  >
-    <div class="col-4"></div>
-    <div class="col-4 no-padding feature-portrait-image" style="background-image:
-    {% if section.title or section.subtitle %}
-      linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    {% endif %}
-    url('{{ section.image }}');">
-      <!-- <img src="{{ section.image }}" class="feature-image"></img> -->
-      <div class="feature-large-img-text">
-        {% if section.title %}
-          <p class="h1 white">{{ section.title }}</p>
-        {% endif %}
-        {% if section.subtitle %}
-          <p class="h6 white">{{ section.subtitle }}</p>
-        {% endif %}
-      </div>
+<div id="{{ section.slug | slugify }}"
+    class="row feature-large-img"
+    style="background-image:
+          {% if section.title or section.subtitle %}
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          {% endif %}
+          url('{{ section.image }}');"
+>
+  {% if section.title or section.subtitle %}
+    <div class="feature-large-img-text text-center">
+      {% if section.title %}
+        <p class="h1 white">{{ section.title }}</p>
+      {% endif %}
+      {% if section.subtitle %}
+        <p class="h6 white">{{ section.subtitle }}</p>
+      {% endif %}
     </div>
-    <div class="col-4"></div>
-  </div>
-{% endif %}
+  {% endif %}
+</div>
