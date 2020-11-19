@@ -32,6 +32,7 @@
 .feature-large-img {
   height: 500px;
   background-size: cover;
+  background-position: center;
   color: white;
   position: relative;
 }
@@ -130,5 +131,9 @@ p {
 
   p {
     font-size: 3.5vw;
+  }
+
+  .feature-large-img {
+    max-height: 280px;
   }
 }
