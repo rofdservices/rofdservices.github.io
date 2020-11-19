@@ -7,8 +7,7 @@ description: >-
   Renovatie verbouwen en onderhoud buiten en binnenshuis.
 keywords: rofd, services, renovatie, badkamer, keuken
 
-# baseurl: "/ubuild-jekyll" # the subpath of your site, e.g. /blog
-url: "" # your site's origin, e.g. https://forestry.io
+url: "https://rofdservices.nl"
 
 # Build settings
 defaults:
