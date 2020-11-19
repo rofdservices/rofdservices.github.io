@@ -102,12 +102,32 @@ p {
   font-size: 0.95rem;
 }
 
+.social-icons {
+  font-size: 2em;
+}
+
 /* Hyperlink */
 .nav-link {
   font-size: small;
   font-weight: lighter;
   padding: .5rem .5rem;
   color: black
+}
+
+.instagram-link {
+  color: var(--instagram-color);
+}
+
+.instagram-link:hover {
+  color: var(--instagram-hover-color);
+}
+
+.whatsapp-link {
+  color: var(--whatsapp-color);
+}
+
+.whatsapp-link:hover {
+  color: var(--whatsapp-hover-color);
 }
 
 /* -------- */

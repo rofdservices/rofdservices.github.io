@@ -1,0 +1,23 @@
+<div id="{{ section.slug | slugify }}" class="row text-center mt-40 mb-40">
+  <div class="col">
+    <p class="mb-40">
+      <span class="social-icons">
+        {% if section.facebook %}
+          <a href="{{ section.facebook }}"><i class="fab fa-facebook"></i></a>
+        {% endif %}
+        {% if section.instagram %}
+          <a class="instagram-link" href="{{ section.instagram }}" target="_blank"><i class="fab fa-instagram"></i></a>
+        {% endif %}
+        {% if section.whatsapp %}
+          <a class="whatsapp-link" href="{{ section.whatsapp }}" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        {% endif %}
+      </span>
+    </p>
+    <p>
+      {% if section.phone %}
+        <a href="tel:{{ section.phone }}" target="_blank"><i class="fas fa-phone-alt pr-2"></i>{{section.phone}}</a>
+      {% endif %}
+    </p>
+    <p>{{ section.copyright }}</p>
+  </div>
+</div>

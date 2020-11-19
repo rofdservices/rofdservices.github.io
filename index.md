@@ -89,4 +89,12 @@ page_sections:
     text_right:
       title: Pergola's en tuinhuisjes
       caption: Kwaliteits vakmanschap
+  - template: footer
+    block: social-contact
+    slug:
+    facebook:
+    instagram: https://www.instagram.com/rofdservices/
+    whatsapp: https://wa.me/+31652729191
+    phone: 06-52-729-191
+    copyright: RofdServices ©2020 - All rights reserved.
 ---
