@@ -69,6 +69,18 @@
   padding: 40px 40px 40px 40px;
 }
 
+/* Contact Form */
+.submit-button {
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding: 16px;
+}
+
+.submit-button:hover {
+  background-color: rgb(95, 95, 95);
+}
+
 /* Typography */
 .display-3 {
   text-transform: uppercase;
@@ -104,6 +116,10 @@ p {
 
 .social-icons {
   font-size: 2em;
+}
+
+.hidden {
+  display: none;
 }
 
 /* Hyperlink */

@@ -17,7 +17,7 @@ page_sections:
         link_text: Onze services
       - link: "#onze-producten"
         link_text: Onze producten
-      - link: "#"
+      - link: "#contact"
         link_text: Contact
   - template: display-caption
     block: display-caption
@@ -74,21 +74,32 @@ page_sections:
   - template: feature-image-text-image
     block: image-text-image
     slug:
-    picture_left: /uploads/features/feature-repair.jpg
+    picture_left: /uploads/features/picture-11.jpg
     text:
       title: Trappen en leuningen
       caption: Keuze te over
-    picture_right: /uploads/features/feature-repair.jpg
+    picture_right: /uploads/features/picture-15.jpg
   - template: feature-text-image-text
     block: text-image-text
     slug:
     text_left:
       title: Veranda's en terrassen
       caption: De laatste hand
-    picture: /uploads/features/feature-repair.jpg
+    picture: /uploads/features/picture-12.jpg
     text_right:
       title: Pergola's en tuinhuisjes
       caption: Kwaliteits vakmanschap
+  - template: contact-form
+    block: contact-form
+    slug: contact
+    title: Contact
+    name: Naam
+    email: Email
+    subject: Onderwerp
+    message: Schrijf hier uw bericht
+    submit: Verstuur
+    success: We hebben uw bericht ontvangen. Dank u wel
+    failure: Ops! Er was een probleem. Probeer een e-mail te sturen naar info@rofdservices.nl
   - template: footer
     block: social-contact
     slug:
