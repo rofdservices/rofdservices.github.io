@@ -65,8 +65,26 @@
   background-color: var(--bg-color-4);
 }
 
+/* img-text-img / text-img-text */
+.feature-block-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.feature-block-img img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
 .feature-block-text {
-  padding: 40px 40px 40px 40px;
+  padding: 3vw;
+}
+
+.feature-block-text p {
+  padding: 1vw;
 }
 
 /* Contact Form */
