@@ -71,14 +71,6 @@ page_sections:
     title: onze producten
     subtitle: Kwaliteit en betrouwbaarheid
     image: /uploads/features/picture-21.jpg
-  - template: magic-cube
-    block: 3d-cube
-    slug:
-    pictures:
-      - /uploads/3d-cube/picture-17.jpg
-      - /uploads/3d-cube/picture-21.jpg
-      - /uploads/3d-cube/picture-28.jpg
-      - /uploads/3d-cube/picture-36.jpg
   - template: feature-image-text-image
     block: image-text-image
     slug:
@@ -87,13 +79,17 @@ page_sections:
       title: Trappen en leuningen
       caption: Keuze te over
     picture_right: /uploads/features/picture-15.jpg
-  - template: feature-text-image-text
-    block: text-image-text
+  - template: feature-text-cube-text
+    block: text-cube-text
     slug:
     text_left:
       title: Veranda's en terrassen
       caption: De laatste hand
-    picture: /uploads/features/picture-12.jpg
+    pictures:
+      - /uploads/3d-cube/picture-17.jpg
+      - /uploads/3d-cube/picture-21.jpg
+      - /uploads/3d-cube/picture-28.jpg
+      - /uploads/3d-cube/picture-36.jpg
     text_right:
       title: Pergola's en tuinhuisjes
       caption: Kwaliteits vakmanschap

@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-4 bg-color-1 feature-block-text">
+    <p class="h4 all-caps green-color-1">{{ section.text_left.title }}</p>
+    <p class="h6">{{ section.text_left.caption }}</p>
+  </div>
+  <div class="col-4 bg-color-1 no-padding d-flex justify-content-center align-items-center =">
+    <div id="image-cube" class="image-cube" image-cube="0">
+      {% for picture in section.pictures %}
+        <img src="{{ picture }}" style="display: none;"></img>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="col-4 bg-color-1 feature-block-text">
+    <p class="h4 all-caps green-color-1">{{ section.text_right.title }}</p>
+    <p class="h6">{{ section.text_right.caption }}</p>
+  </div>
+</div>
