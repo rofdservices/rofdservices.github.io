@@ -71,6 +71,14 @@ page_sections:
     title: onze producten
     subtitle: Kwaliteit en betrouwbaarheid
     image: /uploads/features/picture-21.jpg
+  - template: magic-cube
+    block: 3d-cube
+    slug:
+    pictures:
+      - /uploads/3d-cube/picture-17.jpg
+      - /uploads/3d-cube/picture-21.jpg
+      - /uploads/3d-cube/picture-28.jpg
+      - /uploads/3d-cube/picture-36.jpg
   - template: feature-image-text-image
     block: image-text-image
     slug:

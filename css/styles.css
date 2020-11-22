@@ -87,6 +87,16 @@
   padding: 1vw;
 }
 
+/* Image Cube */
+.image-cube {
+  width: 20vw;
+  height: 20vw;
+}
+
+.image-cube img {
+
+}
+
 /* Contact Form */
 .submit-button {
   width: 100%;
