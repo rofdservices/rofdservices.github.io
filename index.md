@@ -38,6 +38,10 @@ page_sections:
         alt: Slide 4
       - image: /uploads/carousel/c-picture-3.jpg
         alt: Slide 5
+      - image: /uploads/carousel/c-picture-4.jpg
+        alt: Slide 6
+      - image: /uploads/carousel/c-picture-5.jpg
+        alt: Slide 7
   - template: title-description
     block: title-caption-description
     slug: meer van ons
