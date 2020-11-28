@@ -1,6 +1,14 @@
 <div id="{{ section.slug | slugify }}" class="row text-center mt-40 mb-40">
   <div class="col">
     <p class="mb-40">
+      <p>
+        {% if section.werkspot %}
+          <a href="{{ section.werkspot }}" target="_blank">
+            <img class="werkspot-logo" src="/uploads/images/werkspot.png"></img>
+          </a>
+          <!-- <a href="tel:{{ section.phone }}" target="_blank"><i class="fas fa-phone-alt pr-2"></i>{{section.phone}}</a> -->
+        {% endif %}
+      </p>
       <span class="social-icons">
         {% if section.facebook %}
           <a href="{{ section.facebook }}"><i class="fab fa-facebook"></i></a>
@@ -10,6 +18,9 @@
         {% endif %}
         {% if section.whatsapp %}
           <a class="whatsapp-link" href="{{ section.whatsapp }}" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        {% endif %}
+        {% if section.whatsapp %}
+          <a class="google-maps-link" href="{{ section.google_maps }}" target="_blank"><i class="fas fa-map-marked-alt"></i></i></a>
         {% endif %}
       </span>
     </p>

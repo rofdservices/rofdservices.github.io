@@ -175,6 +175,18 @@ p {
   color: var(--whatsapp-hover-color);
 }
 
+.google-maps-link {
+  color: var(--google-maps-color);
+}
+
+.google-maps-link:hover {
+  color: var(--google-maps-hover-color);
+}
+
+.werkspot-logo {
+  width: 150px;
+}
+
 /* -------- */
 /* Media */
 @media screen and (max-width: 580px) {

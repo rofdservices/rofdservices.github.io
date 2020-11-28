@@ -110,6 +110,8 @@ page_sections:
   - template: footer
     block: social-contact
     slug:
+    werkspot: https://www.werkspot.nl/profiel/rofd-services-1
+    google_maps: https://goo.gl/maps/SZyPKbkrzm1bUXoE9
     facebook:
     instagram: https://www.instagram.com/rofdservices/
     whatsapp: https://wa.me/+31652729191
