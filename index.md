@@ -60,16 +60,16 @@ page_sections:
     block: feature-3
     slug: onze services
     features:
-      - title: design
-        subtitle: Superieure kwaliteit
+      - title: constructie
+        subtitle: badkamer, moeilijk ontwerpe
         picture: /uploads/features/feature-design.jpg
         style: feature-col-1
       - title: reparaties
-        subtitle: Alternatieven bouwen
+        subtitle: Stuk en schilderwerk de hoge kwaliteit
         picture: /uploads/features/feature-repair.jpg
         style: feature-col-2
-      - title: constructie
-        subtitle: Gepersonaliseerde werken
+      - title: design
+        subtitle: Superieure kwaliteit
         picture: /uploads/features/feature-constructie.jpg
         style: feature-col-3
   - template: full-feature-text
@@ -83,14 +83,14 @@ page_sections:
     slug:
     picture_left: /uploads/features/picture-11.jpg
     text:
-      title: Trappen en leuningen
+      title: Badkamer verbouwen en toilet renovatie
       caption: Keuze te over
     picture_right: /uploads/features/picture-15.jpg
   - template: feature-text-cube-text
     block: text-cube-text
     slug:
     text_left:
-      title: Veranda's en terrassen
+      title: Dakluik
       caption: De laatste hand
     pictures:
       - /uploads/3d-cube/picture-17.jpg
@@ -98,7 +98,7 @@ page_sections:
       - /uploads/3d-cube/picture-28.jpg
       - /uploads/3d-cube/picture-36.jpg
     text_right:
-      title: Pergola's en tuinhuisjes
+      title: Dakterras
       caption: Kwaliteits vakmanschap
   - template: contact-form
     block: contact-form
