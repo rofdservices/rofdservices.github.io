@@ -5,7 +5,7 @@ date: 2020-11-05T23:00:00.000Z
 page_sections:
   - template: navigation-brand
     block: nav-brand
-    image: /uploads/2020/11/03/rofdservices-logo.jpg
+    image: /uploads/2020/11/03/rofd-logo.png
   - template: navigation-items
     block: nav-navigation
     navigation:
@@ -44,7 +44,10 @@ page_sections:
     title: Meer van ons
     caption: Bedrijf profil
     description: >
-      ROFD biedt een complete service als een bouwbedrijf gericht op het bouwen en verbeteren van residentiële en commerciële structuren volgens de behoeften en eisen van klanten. Ons team is in 2000 opgericht in Rome en staat klaar om alle verbeteringen aan te brengen die nodig zijn voor uw omgeving. Bel of schrijf ons. We nemen zo snel mogelijk contact met u op.
+      ROFD Services is een klusbedrijf sinds 2010 actief op de Nederlandse markt. Met vestingen in Amstelveen , leveren wij maatwerk in de Regio Amsterdam. Renovatie verbouwen en onderhoud buiten en binnenshuis .
+      Ons enthousiaste en professionele team heeft veel oog voor kwaliteit en details. Onze prijzen zijn markt conform, en onze offertes maken we allen na persoonlijk onderhoud met de opdrachtgever.
+      Gedurende de laatste jaren hebben wij ons gespecialiseerd in binnen en buiten schilderwerk, timmerwerk, stukwerk, tegelzetten toilet renovatie badkamer verbouwen, badkamer bouwen en installatiewerk. Ook vloeren, afwerkvloeren en laminaat kunnen wij voor u verzorgen.
+      Bel ons: 0652729191 of stuur een bericht om contact te maken voor een kosteloos offerte.
   - template: full-w-feature
     block: feature-large
     slug:
