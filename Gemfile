@@ -12,3 +12,7 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-menus'
 end
+
+group :development do
+  gem 'rake'
+end
