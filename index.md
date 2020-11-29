@@ -23,7 +23,8 @@ page_sections:
     block: display-caption
     slug: rofd-mark
     title: rofd
-    caption: Werk van hoge kwalitiet
+    caption: >
+      Rofd services biedt een compleet service als een klusbedrijf gericht op het verbouwen een verbeteren van residentiële en commerciële structuren volgens de behoeften en eisen van klanten. Onze team staat klaar om alles verbeteringen aan te brengen die nodig zijn voor uw omgeving.
   - template: carousel-photos
     block: carousel
     slug: main-gallery
@@ -60,16 +61,16 @@ page_sections:
     block: feature-3
     slug: onze services
     features:
-      - title: constructie
-        subtitle: badkamer, moeilijk ontwerpe
+      - title:
+        subtitle: Constructie volgens de wens van de klanten
         picture: /uploads/features/feature-design.jpg
         style: feature-col-1
-      - title: reparaties
+      - title:
         subtitle: Stuk en schilderwerk de hoge kwaliteit
         picture: /uploads/features/feature-repair.jpg
         style: feature-col-2
-      - title: design
-        subtitle: Superieure kwaliteit
+      - title:
+        subtitle: Badkamer, moeilijk ontwerpen
         picture: /uploads/features/feature-constructie.jpg
         style: feature-col-3
   - template: full-feature-text
@@ -84,14 +85,14 @@ page_sections:
     picture_left: /uploads/features/picture-11.jpg
     text:
       title: Badkamer verbouwen en toilet renovatie
-      caption: Keuze te over
+      caption:
     picture_right: /uploads/features/picture-15.jpg
   - template: feature-text-cube-text
     block: text-cube-text
     slug:
     text_left:
       title: Dakluik
-      caption: De laatste hand
+      caption:
     pictures:
       - /uploads/3d-cube/picture-17.jpg
       - /uploads/3d-cube/picture-21.jpg
@@ -99,7 +100,7 @@ page_sections:
       - /uploads/3d-cube/picture-36.jpg
     text_right:
       title: Dakterras
-      caption: Kwaliteits vakmanschap
+      caption:
   - template: contact-form
     block: contact-form
     slug: contact
