@@ -25,8 +25,13 @@
       </span>
     </p>
     <p>
+      {% if section.email %}
+        <a href="mailto:{{ section.email }}" target="_blank"><i class="far fa-envelope pr-2"></i>{{ section.email }}</a>
+      {% endif %}
+    </p>
+    <p>
       {% if section.phone %}
-        <a href="tel:{{ section.phone }}" target="_blank"><i class="fas fa-phone-alt pr-2"></i>{{section.phone}}</a>
+        <a href="tel:{{ section.phone }}" target="_blank"><i class="fas fa-phone-alt pr-2"></i>{{ section.phone }}</a>
       {% endif %}
     </p>
     <p>{{ section.copyright }}</p>
