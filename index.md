@@ -24,10 +24,10 @@ page_sections:
     slug: rofd-mark
     title:
     caption: >
-      ROFD Services is een klusbedrijf sinds 2010 actief op de Nederlandse markt. Met vestingen in Amstelveen , leveren wij maatwerk in de Regio Amsterdam. Renovatie verbouwen en onderhoud buiten en binnenshuis .
+      ROFD Services is een klusbedrijf sinds 2010 actief op de Nederlandse markt. Met vestiging in Amstelveen , leveren wij maatwerk in de Regio Amsterdam. Renovatie verbouwen en onderhoud buiten en binnenhuis .
       Ons enthousiaste en professionele team heeft veel oog voor kwaliteit en details. Onze prijzen zijn markt conform, en onze offertes maken we allen na persoonlijk onderhoud met de opdrachtgever.
       Gedurende de laatste jaren hebben wij ons gespecialiseerd in binnen en buiten schilderwerk, timmerwerk, stukwerk, tegelzetten toilet renovatie badkamer verbouwen, badkamer bouwen en installatiewerk. Ook vloeren, afwerkvloeren en laminaat kunnen wij voor u verzorgen.
-      <br/><br/>Bel ons: 0652729191 of stuur een bericht om contact te maken voor een kosteloos offerte.
+      <br/><br/>Bel ons: 0652729191 of stuur een bericht om contact te maken voor een vrijblijvende offerte.
   - template: carousel-photos
     block: carousel
     slug: main-gallery
