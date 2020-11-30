@@ -28,3 +28,4 @@ exclude:
   - README.md
   - Rakefile
   - Gemfile
+  - _deploy
