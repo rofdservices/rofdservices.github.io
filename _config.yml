@@ -7,8 +7,15 @@ description: >-
   Gedurende de laatste jaren hebben wij ons gespecialiseerd in binnen en buiten schilderwerk, timmerwerk, stukwerk, tegelzetten toilet renovatie badkamer verbouwen, badkamer bouwen en installatiewerk. Ook vloeren, afwerkvloeren en laminaat kunnen wij voor u verzorgen.
   Bel ons: 0652729191 of stuur een bericht om contact te maken voor een kosteloos offerte.
 keywords: rofd, services, renovatie, badkamer, keuken
+deploy:
+  source: git@github.com:rofdservices/rofdservices.github.io.git
+  branch: live
+  dir: _production
 
 url: "https://rofdservices.nl"
+
+plugins:
+  - jekyll-menus
 
 # Build settings
 defaults:
@@ -17,5 +24,7 @@ defaults:
     values:
       layout: "default" # this ensures all content renders with layouts/default.html
 
-plugins:
-  - jekyll-menus
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
