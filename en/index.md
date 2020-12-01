@@ -11,24 +11,23 @@ page_sections:
     navigation:
       - link: "/"
         link_text: Home
-      - link: "#meer-van-ons"
-        link_text: Meer van ons
-      - link: "#onze-services"
-        link_text: Onze services
-      - link: "#onze-producten"
-        link_text: Onze producten
-      - link: "#contact"
+      - link: "en/#more-of-us"
+        link_text: More of us
+      - link: "en/#our-services"
+        link_text: Our services
+      - link: "en/#our-products"
+        link_text: Our products
+      - link: "en/#contact"
         link_text: Contact
-      - link: "/en"
-        link_text: 🇬🇧 English
+      - link: "/"
+        link_text: 🇳🇱 Nederlands
   - template: display-caption
     block: display-caption
     slug: rofd-mark
     title:
     caption: >
-      ROFD Services is een klusbedrijf sinds 2010 actief op de Nederlandse markt. Met vestiging in Amstelveen , leveren wij maatwerk in de Regio Amsterdam. Renovatie verbouwen en onderhoud buiten en binnenhuis .
-      Ons enthousiaste en professionele team heeft veel oog voor kwaliteit en details. Onze prijzen zijn markt conform, en onze offertes maken we alleen na persoonlijk onderhoud met de opdrachtgever.
-      <br/><br/>Bel ons: 0652729191 of stuur een bericht om contact te maken voor een vrijblijvende offerte.
+      ROFD Services has been a handyman company active in the Dutch market since 2010. With office in Amstelveen, we deliver custom work in the Amsterdam region. Renovation renovation and maintenance outside and inside. Our enthusiastic and professional team has a great eye for quality and details. Our prices are in line with the market, and we all make our quotations after a personal interview with the client.
+      <br/><br/>Call us: 0652729191 or send a message to contact us for a free quote.
   - template: carousel-photos
     block: carousel
     slug: main-gallery
@@ -49,50 +48,50 @@ page_sections:
         alt: Slide 7
   - template: title-description
     block: title-caption-description
-    slug: meer van ons
-    title: Meer van ons
+    slug: more of us
+    title: More of us
     caption:
     description: >
-      Rofd services biedt een compleet service als een klusbedrijf gericht op het verbouwen een verbeteren van residentiële en commerciële structuren volgens de behoeften en eisen van klanten. Onze team staat klaar om alles verbeteringen aan te brengen die nodig zijn voor uw omgeving.
+      Rofd services offers a complete service as a DIY company aimed at remodeling and improving residential and commercial structures according to the needs and requirements of clients. Our team is ready to make any improvements necessary for your environment.
   - template: full-w-feature
     block: feature-large
     slug:
     image: /uploads/features/feature-large-2.jpg
   - template: feature-3-columns
     block: feature-3
-    slug: onze services
+    slug: Our services
     features:
       - title:
-        subtitle: Constructie volgens de wens van de klanten
+        subtitle: Construction according to the wishes of the customers
         picture: /uploads/features/feature-design.jpg
         style: feature-col-1
       - title:
-        subtitle: Stuk en schilderwerk de hoge kwaliteit
+        subtitle: High quality piece and paintwork
         picture: /uploads/features/feature-repair.jpg
         style: feature-col-2
       - title:
-        subtitle: Badkamer, moeilijk ontwerpen
+        subtitle: Bathroom, difficult to design
         picture: /uploads/features/feature-constructie.jpg
         style: feature-col-3
   - template: full-feature-text
     block: feature-large
-    slug: onze producten
-    title: onze producten
-    subtitle: Kwaliteit en betrouwbaarheid
+    slug: our products
+    title: Our products
+    subtitle: Quality and reliability
     image: /uploads/features/picture-21.jpg
   - template: feature-image-text-image
     block: image-text-image
     slug:
     picture_left: /uploads/features/picture-11.jpg
     text:
-      title: Badkamer verbouwen en toilet renovatie
+      title: Bathroom remodeling and toilet renovation
       caption:
     picture_right: /uploads/features/picture-15.jpg
   - template: feature-text-cube-text
     block: text-cube-text
     slug:
     text_left:
-      title: Dakluik
+      title: Roof hatch
       caption:
     pictures:
       - /uploads/3d-cube/picture-17.jpg
@@ -100,19 +99,19 @@ page_sections:
       - /uploads/3d-cube/picture-28.jpg
       - /uploads/3d-cube/picture-36.jpg
     text_right:
-      title: Dakterras
+      title: Roof terrace
       caption:
   - template: contact-form
     block: contact-form
     slug: contact
     title: Contact
-    name: Naam
+    name: Name
     email: Email
-    subject: Onderwerp
-    message: Schrijf hier uw bericht
-    submit: Verstuur
-    success: We hebben uw bericht ontvangen. Dank u wel
-    failure: Ops! Er was een probleem. Probeer een e-mail te sturen naar info@rofdservices.nl
+    subject: Topic
+    message: Write your message here
+    submit: Send
+    success: We have received your message. Thank you
+    failure: Ops! There was a problem. Try to send an email to info@rofdservices.nl
   - template: footer
     block: social-contact
     slug:
@@ -123,5 +122,5 @@ page_sections:
     whatsapp: https://wa.me/+31652729191
     phone: 06-52-729-191
     email: info@rofdservices.nl
-    copyright: RofdServices ©2020 - Alle rechten voorbehouden.
+    copyright: RofdServices ©2020 - All rights reserved.
 ---
