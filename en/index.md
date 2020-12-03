@@ -26,8 +26,8 @@ page_sections:
     slug: rofd-mark
     title:
     caption: >
-      ROFD Services has been a handyman company active in the Dutch market since 2010. With office in Amstelveen, we deliver custom work in the Amsterdam region. Renovation renovation and maintenance outside and inside. Our enthusiastic and professional team has a great eye for quality and details. Our prices are in line with the market, and we all make our quotations after a personal interview with the client.
-      <br/><br/>Call us: 0652729191 or send a message to contact us for a free quote.
+      ROFD Services is a rennovation company active in the Dutch market since 2010. Located in Amstelveen, we deliver custom work in the Amsterdam and surrounding. We do renovation and maintenance outside and inside the house. Our enthusiastic and professional team gives a lot of importance to quality and details. Our prices are in line with the market, and we make our quotations after a personal visit and interview with the client.
+      <br/><br/>Call us: 0652729191 or send a message for a free quote.
   - template: carousel-photos
     block: carousel
     slug: main-gallery
@@ -52,7 +52,7 @@ page_sections:
     title: More of us
     caption:
     description: >
-      Rofd services offers a complete service as a DIY company aimed at remodeling and improving residential and commercial structures according to the needs and requirements of clients. Our team is ready to make any improvements necessary for your environment.
+      Rofd services offers a complete service as a Rennovation company with the aim of restructuring and improving residential and commercial structures according to the needs and requirements of clients. Our team is ready to make any improvements necessary to your environment.
   - template: full-w-feature
     block: feature-large
     slug:
@@ -66,7 +66,7 @@ page_sections:
         picture: /uploads/features/feature-design.jpg
         style: feature-col-1
       - title:
-        subtitle: High quality piece and paintwork
+        subtitle: High quality plaster and paintwork
         picture: /uploads/features/feature-repair.jpg
         style: feature-col-2
       - title:

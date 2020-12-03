@@ -63,15 +63,15 @@ page_sections:
     slug: onze services
     features:
       - title:
-        subtitle: Constructie volgens de wens van de klanten
+        subtitle: Constructie volgens de wens van de klant
         picture: /uploads/features/feature-design.jpg
         style: feature-col-1
       - title:
-        subtitle: Stuk en schilderwerk de hoge kwaliteit
+        subtitle: Stuc- en schilderwerk van de hoogste kwaliteit
         picture: /uploads/features/feature-repair.jpg
         style: feature-col-2
       - title:
-        subtitle: Badkamer, moeilijk ontwerpen
+        subtitle: Badkamer ontwerp en constructie
         picture: /uploads/features/feature-constructie.jpg
         style: feature-col-3
   - template: full-feature-text
