@@ -70,7 +70,7 @@ page_sections:
         picture: /uploads/features/feature-repair.jpg
         style: feature-col-2
       - title:
-        subtitle: Bathroom, difficult to design
+        subtitle: Bathroom, difficult design
         picture: /uploads/features/feature-constructie.jpg
         style: feature-col-3
   - template: full-feature-text
