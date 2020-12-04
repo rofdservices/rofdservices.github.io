@@ -9,10 +9,10 @@ page_sections:
   - template: navigation-items
     block: nav-navigation
     navigation:
-      - link: "/"
+      - link: "/en"
         link_text: Home
-      - link: "en/#more-of-us"
-        link_text: More of us
+      - link: "en/#about-us"
+        link_text: About us
       - link: "en/#our-services"
         link_text: Our services
       - link: "en/#our-products"
@@ -48,8 +48,8 @@ page_sections:
         alt: Slide 7
   - template: title-description
     block: title-caption-description
-    slug: more of us
-    title: More of us
+    slug: about us
+    title: About us
     caption:
     description: >
       Rofd services offers a complete service as a Rennovation company with the aim of restructuring and improving residential and commercial structures according to the needs and requirements of clients. Our team is ready to make any improvements necessary to your environment.
