@@ -26,7 +26,7 @@ page_sections:
     slug: rofd-mark
     title:
     caption: >
-      ROFD Services is a rennovation company active in the Dutch market since 2010. Located in Amstelveen, we deliver custom work in the Amsterdam and surrounding. We do renovation and maintenance outside and inside the house. Our enthusiastic and professional team gives a lot of importance to quality and details. Our prices are in line with the market, and we make our quotations after a personal visit and interview with the client.
+      ROFD Services is a rennovation company active in the Dutch market since 2010. Located in Amstelveen, we deliver custom work in Amsterdam and surrounding. We do renovation and maintenance outside and inside the house. Our enthusiastic and professional team gives a lot of importance to quality and details. Our prices are in line with the market, and we make our quotations after a personal visit and interview with the client.
       <br/><br/>Call us: 0652729191 or send a message for a free quote.
   - template: carousel-photos
     block: carousel
@@ -70,7 +70,7 @@ page_sections:
         picture: /uploads/features/feature-repair.jpg
         style: feature-col-2
       - title:
-        subtitle: Bathroom, difficult design
+        subtitle: Bathroom design and construction
         picture: /uploads/features/feature-constructie.jpg
         style: feature-col-3
   - template: full-feature-text
